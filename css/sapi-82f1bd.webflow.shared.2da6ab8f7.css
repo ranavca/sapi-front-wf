@@ -5519,3 +5519,26 @@ figcaption {
     text-align: justify;
   }
 }
+
+/* Team Section - Single Image */
+.team_image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.team_main-photo {
+  width: 100%;
+  max-width: 1080px;
+  border-radius: 2rem;
+  object-fit: cover;
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  .team_main-photo {
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+}
